@@ -1,0 +1,1 @@
+My studies about python with Think Python - Allen B. Downey second edition.
