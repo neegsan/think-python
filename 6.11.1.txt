@@ -1,0 +1,17 @@
+def b(z):                       b(9)
+    prod = a(z, z)              prod = a(9,9) = 90
+    print(z, prod)              
+    return prod
+
+def a(x, y):                    a(9,9)
+    x = x + 1                   x = 10 e y = 9
+    return x * y                a(9,9) = 10*9 = 90
+
+def c(x, y, z):                 c(1, 5, 3)
+    total = x + y + z           total = 1 + 5 + 3 = 9
+    square = b(total)**2        square = b(9)**2 = 90**2 = 81000
+    return square
+
+x = 1                           x = 1
+y = x + 1                       y = 2
+print(c(x, y+3, x+y))           c(1, 5, 3) = 8100
